@@ -27,28 +27,31 @@ header ul {
     aspect-ratio: 1;
     border-radius: 50%;
     object-fit: cover;
-    filter: grayscale(1);
+    /* filter:drop-shadow(1); */
     margin: 1rem auto;
  }
  h1 {
     text-align: center;
     color: orangered;
-    text-decoration: underline;
+    text-decoration: none;
  }
- main {
+ /* main {
     margin: 2rem 4rem;
+ } */
+ main img {
+   border: rgb(174, 49, 51) solid 2rem;
  }
- section {
-    margin-bottom: 3rem;
+ .content {
+   margin-bottom: 3rem;
  }
  p {
     width: 80ch;
  }
- section li h3,
+ div li h3,
  section li p {
     font-size: .8rem;
     letter-spacing: 0.5px;  
  }
- section li {
+ div li {
     margin: .5rem;
  }
