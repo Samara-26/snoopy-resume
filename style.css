@@ -1,57 +1,91 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #efefef;
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  background-color: #efefef;
 }
 header {
-    padding: 2rem;
-    border-bottom: 2px solid #29213f;
+  padding: 2rem;
+  border-bottom: 2px solid #29213f;
 }
 header ul {
-    list-style: none;
+  list-style: none;
 }
- header a {
-    color: inherit;
-    text-decoration: none;
-    font-style: normal;
- }
- header a:hover {
-    color: hotpink;
- }
- header img {
-    display: block;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    object-fit: cover;
-    /* filter:drop-shadow(1); */
-    margin: 1rem auto;
- }
- h1 {
-    text-align: center;
-    color: orangered;
-    text-decoration: none;
- }
- /* main {
+header a {
+  color: inherit;
+  text-decoration: none;
+  font-style: normal;
+}
+header a:hover {
+  color: hotpink;
+}
+header img {
+  display: block;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  /* filter:drop-shadow(1); */
+  margin: 1rem auto;
+}
+h1 {
+  text-align: center;
+  color: orangered;
+  text-decoration: none;
+}
+/* main {
     margin: 2rem 4rem;
  } */
- main img {
-   border: rgb(174, 49, 51) solid 2rem;
- }
- .content {
-   margin-bottom: 3rem;
- }
- p {
-    width: 80ch;
- }
- div li h3,
- section li p {
-    font-size: .8rem;
-    letter-spacing: 0.5px;  
- }
- div li {
-    margin: .5rem;
- }
+
+main {
+  padding: 3rem;
+}
+
+main img {
+  border: rgb(174, 49, 51) solid 2rem;
+}
+
+main > h2 {
+  padding-top: 20px;
+}
+
+.content {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.content h2 {
+  margin-bottom: 0.2rem;
+}
+
+.flex-items > div {
+  padding-left: 1rem;
+}
+
+p {
+  width: 80ch;
+}
+div li h3,
+section li p {
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+div li {
+  margin: 0.5rem;
+}
